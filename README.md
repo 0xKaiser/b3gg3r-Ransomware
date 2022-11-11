@@ -12,7 +12,7 @@ Kịch bản:
   8. Victim sau khi đọc file hướng dẫn, gửi file Payload đến Attacker sau khi xác nhận đã thực hiện thanh toán. Trên máy Attacker tiến hành tìm key bằng “Decrypt_Payload.py”
   9. Victim nhận key và tiến hành giải nén bằng “Extract.exe”
 
-Để tránh việc chạy 1 cách vô tính, b3gg3r.py được lưu dưới dạng b3gg3r.txt
+Để tránh việc chạy 1 cách vô tình, b3gg3r.py được lưu dưới dạng b3gg3r.txt
 Chức năng:
   b3gg3r.txt: Đây là con Ransomware, sau khi chạy xong sẽ có file Payload ngoài Desktop
   Decrypt_Payload.py: Lấy key từ file Payload
