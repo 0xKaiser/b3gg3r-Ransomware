@@ -14,9 +14,9 @@ Kịch bản:
 
 Để tránh việc chạy 1 cách vô tình, b3gg3r.py được lưu dưới dạng b3gg3r.txt
 Chức năng:
-  b3gg3r.txt: Đây là con Ransomware, sau khi chạy xong sẽ có file Payload ngoài Desktop
-  Decrypt_Payload.py: Lấy key từ file Payload
-  Extract.txt: file thuốc giải với input là key được từ file Decrypt_Payload.py
+- b3gg3r.txt: Đây là con Ransomware, sau khi chạy xong sẽ có file Payload ngoài Desktop
+- Decrypt_Payload.py: Lấy key từ file Payload
+- Extract.txt: file thuốc giải với input là key được từ file Decrypt_Payload.py
 
 Trước khi chạy:
   “b3gg3r.py” sẽ đươc chuyển đổi sang định dạng file executable bằng “pyinstaller” thông qua cú pháp “pyinstaller –onefile b3gg3r.py”. Tham số “--one file” nhằm mục đích để file “.exe” có thể chạy mà không cần sự hỗ trợ của tệp khác và để mặc định chạy trên console vì lí do nghiên cứu - có thể kiểm tra xem “unikey.exe” sẽ chạy như thế nào.
