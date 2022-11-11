@@ -22,6 +22,7 @@ Trước khi chạy:
   “b3gg3r.py” sẽ đươc chuyển đổi sang định dạng file executable bằng “pyinstaller” thông qua cú pháp “pyinstaller –onefile b3gg3r.py”. Tham số “--one file” nhằm mục đích để file “.exe” có thể chạy mà không cần sự hỗ trợ của tệp khác và để mặc định chạy trên console vì lí do nghiên cứu - có thể kiểm tra xem “unikey.exe” sẽ chạy như thế nào.
 
 Sau khi chạy xong:
-  Do “unikey.exe” đã được tạo trong thư mục Startup nên dù cho đã giải nén rồi hay chưa thì nó vẫn sẽ chạy, nhưng do có file “Payload.txt” nên sẽ không nén nữa. Nếu Victim xóa file này thì rất khó để có thể lấy lại được dữ liệu.
-	Mặt khác nếu máy Victim đã kết nối mạng thì Window Defender ngay lập tức có thể phát hiện và cách ly ngay “b$gg$r”.
+  Do “unikey.exe” đã được tạo trong thư mục Startup nên dù cho đã giải nén tất cả các file mục tiêu rồi hay chưa thì nó vẫn sẽ chạy, nhưng do có file “Payload.txt” nên sẽ không nén lại lần nữa. Nếu Victim xóa file này khi chưa giải nén những file nạn nhân thì rất khó để có thể lấy lại được dữ liệu (vì bị nén 2 lần và pass file nén cũ đã mất).
+  
+Mặt khác nếu máy Victim đã kết nối mạng thì Window Defender ngay lập tức có thể phát hiện và cách ly ngay “b$gg$r”.
 
