@@ -27,3 +27,6 @@ Sau khi chạy xong:
   
 Mặt khác nếu máy Victim đã kết nối mạng thì Window Defender ngay lập tức có thể phát hiện và cách ly ngay “b$gg$r”.
 
+***
+
+> Đây là project phục vụ bài tập nhóm của mình.
